@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }.container{
+            display: flex;
+            gap: 10px;
+            margin: 100px;
+        }.box{
+            background-color: aqua;
+            border: 2px solid green;
+            border-radius: 5px;
+            padding:100px 50px;
+            
+       }.items-container{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+       }
+       .item{
+            padding: 15px;
+            background-color: tomato;
+       }
+    @media screen and (max-width:576px){
+            .container{
+                flex-direction: column;
+            }.item{
+                width: 100%;
+            }
+    }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <h4>Hello world</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil quas voluptas alias, non doloribus?</p>
+            </div>
+            <div class="box">
+                <h4>Hello world</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita iusto quia, nostrum dolorum nihil?</p>
+            </div>
+           
+        </div>
+         <div class="items-container">
+             <div class="item">box 1</div>
+             <div class="item">box 2</div>
+             <div class="item">box 3</div>
+             <div class="item">box 4</div>
+             <div class="item">box 5</div>
+             <div class="item">box 6</div>
+             <div class="item">box 7</div>
+             <div class="item">box 8</div>
+             <div class="item">box 9</div>
+             <div class="item">box 10</div>
+             <div class="item">box 11</div>
+             <div class="item">box 12</div>
+             <div class="item">box 13</div>
+             <div class="item">box 14</div>
+             <div class="item">box 15</div>
+             <div class="item">box 16</div>
+             <div class="item">box 17</div>
+             <div class="item">box 18</div>
+             <div class="item">box 19</div>
+             <div class="item">box 20</div>
+            </div>
+    </header>
+</body>
+</html>

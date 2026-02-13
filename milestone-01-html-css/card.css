@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+.card_section{
+    display: flex;
+    align-items: center;
+}
+.card{
+    border: 1px solid aqua;
+    width: 300px;
+    margin-left: 20%;
+    padding: 5px;
+    /* border-radius: 20px; */
+    background-color: lightgreen;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+
+}.card img{
+    width: 100%;
+    padding: 0px;
+}
+.card h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.card button{
+    background-color: aqua;
+    font-size: 1em;
+    border-radius: 10px;
+    font-weight: bold;
+}

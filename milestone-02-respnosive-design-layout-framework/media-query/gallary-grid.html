@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 3px;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(6,1fr);
+        }.container img{
+            /* we have to specify width of the image ,% helps to take space from parent element */
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div><img src="images/A.jpg" alt=""></div>
+     <div><img src="images/B.jpg" alt=""></div>
+     <div><img src="images/C.jpg" alt=""></div>
+     <div><img src="images/D.jpg" alt=""></div>
+     <div><img src="images/E.jpg" alt=""></div>
+     <div><img src="images/F.jpg" alt=""></div>
+     <div><img src="images/G.jpg" alt=""></div>
+     <div><img src="images/H.jpg" alt=""></div>
+    </div>
+</body>
+</html>

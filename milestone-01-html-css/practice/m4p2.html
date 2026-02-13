@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .info label{
+            display: block;
+        }
+        form textarea{
+            columns: 40;
+            rows:5 ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="">
+            <fieldset class="info">
+                <legend>User Review: </legend>
+                <label for="review">What is your hones opinion with our product ?</label>
+                <textarea name="" id="review" placeholder="write here ......"></textarea>
+                <label for="product">Which product from us do you like the most ?</label>
+                <select name="" id="product">
+                    <option value="shoe">Shoe</option>
+                    <option value="watch">Watch</option>
+                    <option value="iphone">Iphone</option>
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Which of our product do you think we should improve ?</legend>
+
+                <input type="radio" id="shoe" name="product">
+                <label for="shoe">Shoe</label>
+
+                <input type="radio" name="product" id="watch">
+                <label for="watch">Watch</label>
+                
+                <input type="radio" name="product" id="iphone">
+                <label for="iphone">Iphone</label>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

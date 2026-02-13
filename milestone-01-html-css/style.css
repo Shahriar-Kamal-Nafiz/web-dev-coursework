@@ -1,0 +1,27 @@
+iframe{
+    padding-left:150px ;
+    width:"800px";
+    height:"450px";
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 8px;
+    border-radius: .9;
+}
+a:hover{
+    color: blue;
+}
+nav li{
+    display: inline;
+    margin: 15px;
+}
+.pics{
+    width: 80%;
+}
+footer{
+    text-align: center;
+}

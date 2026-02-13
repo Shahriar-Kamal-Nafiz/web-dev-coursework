@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        form fieldset label{
+            display: block;
+        }
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav> <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Food Corner</a></li>
+    </ul></nav>
+
+</header>
+<main>
+
+    <section>
+        <form action="">
+            <h4>Omar Ali Coffee Shop</h4>
+
+            <!-- Label and input will stay together -->
+            <label for="name">Name :</label>
+            <input type="text" id="name">
+
+            <fieldset>
+                <legend>Pitha info</legend>
+                
+                <label for="chitoi">Chitoi Pitha </label>
+                <input type="radio" name="" id="chitoi">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Coffee info</legend>
+                <label for="capuchino">Capuchino</label>
+                <input type="radio" name="" id="capuchino">
+
+                <label for="mocha">Mocha</label>
+                <input type="radio" name="" id="mocha">
+
+                <label for="americano">Americano</label>
+                <input type="radio" id="americano">
+            </fieldset>
+
+            <fieldset>
+                <legend>Which coffee will you order? </legend>
+                <textarea cols="50" rows="4" name="coffee" id="Mocha" placeholder="Americano,Mocha,Capuchino"></textarea>
+               
+
+            </fieldset>
+            <input type="submit" value="Submit now">
+            <input type="reset"  value="Clear all" id="">
+        </form>
+    </section>
+</main>
+<footer>
+         
+</footer>
+</body>
+</html> 
